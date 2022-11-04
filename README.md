@@ -6,6 +6,10 @@ To install this download the code as zip file and use "Install addon" feature in
 
 To export the file you should select all verticies in edit mode, otherwise nothing good will happen.
 
+To import the file you just have to import it.
+
+////////////////////////////////////////////////////////////
+
 Плагин очень багованный и неприятный, но он работает.
 
 Работает на Blender 2.83 версии.
@@ -13,3 +17,5 @@ To export the file you should select all verticies in edit mode, otherwise nothi
 Устанавливать нужно скачивая зип-файл где будет эта папка и используя функцию "установить аддон" в самом блендере.
 
 Для экспортирования файла нужно сначала выбрать все вертиклы в режиме редактирования объекта, иначе не выйдет считать группы.
+
+Для импортирования - импортируйте.
