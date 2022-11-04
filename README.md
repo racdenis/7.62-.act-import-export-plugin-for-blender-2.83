@@ -1,8 +1,12 @@
+The plugin is very uncomfortable and buggy, but it works.
+
 Works on Blender 2.83.
 
 To install this download the code as zip file and use "Install addon" feature in blender to install it.
 
 To export the file you should select all verticies in edit mode, otherwise nothing good will happen.
+
+Плагин очень багованный и неприятный, но он работает.
 
 Работает на Blender 2.83 версии.
 
