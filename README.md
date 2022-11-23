@@ -8,6 +8,8 @@ To export the file you should select all verticies in edit mode, otherwise nothi
 
 To import the file you just have to import it.
 
+UPD: Now when exporting you need to type full name of file, "file.act", "file.act.lod1" or whatever.
+
 ////////////////////////////////////////////////////////////
 
 Плагин очень багованный и неприятный, но он работает.
@@ -19,3 +21,5 @@ To import the file you just have to import it.
 Для экспортирования файла нужно сначала выбрать все вертиклы в режиме редактирования объекта, иначе не выйдет считать группы.
 
 Для импортирования - импортируйте.
+
+PS: Теперь при экспорте нужно писать полное имя файла, "file.act", "file.act.lod1" и так далее.
