@@ -748,8 +748,9 @@ Header {\n\
         file.write("SkinWeights {1}\n    \"{0}\";\n".format(group.name, "{"))
         for k, vertex in enumerate(new_vertices):
             if group.index in [m.group for m in vertex.groups]:
-                vertex_count = vertex_count + 1
+                #vertex_count = vertex_count + 1
                 if (group.weight(vertex.index)>0):
+                    vertex_count = vertex_count + 1
                     vertex_array_newindex.append(k)
                     vertex_array_weight.append(round(group.weight(vertex.index),6))
                 #file.write("{}: ".format(k))
@@ -764,6 +765,10 @@ Header {\n\
             else:
                 file.write("    {};\n".format(a))
             
+        print(format(group.name))
+        print(inx)
+        print(vertex_count)
+        
         inx = 0;
         for a in vertex_array_weight:
             file.write("    {}".format(a))
@@ -774,6 +779,9 @@ Header {\n\
                 file.write(";\n")
         file.write("{};;\n".format(mdic[group.name]))
         file.write("}\n\n")
+        
+        
+    
 
     file.write("}\n")
     print("whole mesh - done!\n\n")
@@ -845,6 +853,8 @@ if __name__ == "__main__":
 
     # test call
     bpy.ops.import_test.some_data('INVOKE_DEFAULT')
+
+
 
 
 
