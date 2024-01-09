@@ -162,6 +162,9 @@ def read_some_data(context, filepath, use_some_setting):
         line = line.split(',')
         
         for k in line:
+            tzfind = k.find(";") #for different syntaxis with  3;0,2,1;, instead of  3;0,2,1,
+            if tzfind>-1:
+                k = k[0:tzfind]
             vertsline = vertsline + (int(k),)
         
         faces.append(vertsline)
